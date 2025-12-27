@@ -27,11 +27,9 @@ function SignUpPage() {
         password: data.password,
       };
 
-      const res = await registerUser(sendData);
+      await registerUser(sendData);
 
-      toast.success("ثبت‌نام موفق! در حال ورود...");
-
-      localStorage.setItem("token", res.data.token);
+      toast.success("ثبت‌نام موفق! لطفاً وارد شوید");
       router.push("/products");
     } catch (err) {
       toast.error(err.response?.data?.message || "خطا در ثبت‌نام!");
