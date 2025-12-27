@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Product Admin Panel (Next.js)
 
-## Getting Started
+This project is a simple Admin Panel for managing products in an online store.
+It is developed as a front-end mini project and focuses on routing, authentication, and clean project structure using Next.js.
 
-First, run the development server:
+Features
 
-```bash
+User authentication (Sign In / Sign Up)
+
+Protected dashboard access
+
+Product management
+
+View product list
+
+Add, edit, and delete products
+
+Form validation with clear error handling
+
+Toast notifications for user feedback
+
+Modular and maintainable code structure
+
+Technologies Used
+
+Next.js (Pages Router)
+
+React
+
+CSS Modules
+
+React Hook Form
+
+Yup
+
+React Hot Toast
+
+a good Project Structure
+
+Routing and Authentication
+
+Routing is handled using Next.js file-based routing.
+
+The dashboard page is protected and only accessible to authenticated users.
+
+Unauthenticated users are redirected to the sign-in page.
+
+Getting Started
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the project in the browser:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Notes
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Static assets such as images and fonts are served from the public directory.
 
-## Learn More
+The project follows clean code principles to ensure readability and scalability.
 
-To learn more about Next.js, take a look at the following resources:
+License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is created for educational purposes.
